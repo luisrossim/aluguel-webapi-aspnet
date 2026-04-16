@@ -1,0 +1,45 @@
+## Compilação e Binários
+[Bb]in/
+[Ob]j/
+publish/
+[Log]s/
+
+## .NET / Visual Studio
+*.user
+*.userosscache
+*.sln.doccache
+*.suo
+*.userprefs
+.vs/
+
+## Arquivos de Configuração Local
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+*.publishsettings
+
+## Pacotes NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+
+## VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## Frontend 
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+## Sistemas Operacionais
+.DS_Store
+Thumbs.db
